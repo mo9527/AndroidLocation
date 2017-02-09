@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Hello World, MyActivity"
+            />
+
+    <Button
+            android:id="@+id/startBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="启动 Service"
+            />
+    <Button
+            android:id="@+id/stopBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="停止 Service"
+            />
+
+    <TextView
+            android:id="@+id/tv_show_info"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="ceshi"
+            />
+    <Button
+            android:id="@+id/btn_get_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="获取位置"
+            />
+</LinearLayout>
+
