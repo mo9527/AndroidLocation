@@ -12,9 +12,9 @@ public class SendAliMessage {
     private void init(){
         if (producer == null){
             Properties properties = new Properties();
-            properties.put(PropertyKeyConst.ProducerId, "PID_WEIWT_LOCATION");// 您在MQ控制台创建的Producer ID
-            properties.put(PropertyKeyConst.AccessKey,"LTAImMDTHhNAV6Ge");// 鉴权用AccessKey，在阿里云服务器管理控制台创建
-            properties.put(PropertyKeyConst.SecretKey, "PligF8lACHYUUQDrIxGCAQiQUI93MK");// 鉴权用SecretKey，在阿里云服务器管理控制台创建
+            properties.put(PropertyKeyConst.ProducerId, "");// 您在MQ控制台创建的Producer ID
+            properties.put(PropertyKeyConst.AccessKey,"");// 鉴权用AccessKey，在阿里云服务器管理控制台创建
+            properties.put(PropertyKeyConst.SecretKey, "");// 鉴权用SecretKey，在阿里云服务器管理控制台创建
             producer = ONSFactory.createProducer(properties);
         }
         // 在发送消息前，必须调用start方法来启动Producer，只需调用一次即可
